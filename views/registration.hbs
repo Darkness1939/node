@@ -1,8 +1,7 @@
     <div class="container">
         <h1>Register</h1>
         <p>Please fill in this form to create an account.</p>
-        <hr>
-    
+        <form action="/api/registration" method="POST">
         <label for="name"><b>Name</b></label>
         <input type="text" placeholder="Enter Name" name="name" required>
 
@@ -22,6 +21,7 @@
         <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
         <hr>
         <button type="submit" class="registerbtn">Register</button>
+        </form>
       </div>
     
       <div class="container signin">
